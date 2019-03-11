@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GrapesJs</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/grapesjs/dist/css/grapes.min.css"
+    />
+    <link rel="stylesheet" href="grapesjs.css" />
+    <link rel="stylesheet" href="https://unpkg.com/grapejs-custom-code" />
+  </head>
+  <body>
+    <div class="panel__top">
+      <div class="panel__basic-actions"></div>
+      <div class="panel__devices"></div>
+      <div class="panel__switcher"></div>
+    </div>
+    <div class="editor-row">
+      <div class="editor-canvas">
+        <div id="gjs">
+          <h1>Hello World Component!</h1>
+        </div>
+      </div>
+
+      <div class="panel__right gjs-pn-panels">
+        <div class="layers-container"></div>
+        <div class="styles-container"></div>
+        <div class="gjs-pn-panels"></div>
+
+        <!-- <div class="traits-container"></div> -->
+        <div class="blocks-container">
+          <div id="blocks"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://unpkg.com/grapesjs"></script>
+  <script src="grapesjs.js"></script>
+</html>
